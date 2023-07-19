@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+/*======================*/
+/*first-block*/
+.first-block {
+    position: relative;
+}
+
+.first-block-element {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border: 3px dotted blue;
+    background-color: lightskyblue;
+    height: 100px;
+    width: 250px;
+    max-width: 500px;
+}
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+/*first block done*/
+
+/*second-block*/
+
+.second-block {
+    position: relative;
+}
+
+.second-block-element {
+    position: absolute;
+    border: 5px double red;
+    margin: 150px 0 0 0;
+    left: 15px;
+
+    width: 20%;
+    height: 100px;
+    background-color: lightsalmon;
+
+}
+
+.second-block-text {
+    position: absolute;
+    left: 20px;
+
+}
+
+/*Second-block done*/
+
+/*Third-block*/
+.third-block {
+    position: relative;
+
+}
+
+.third-block-element {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color: lightseagreen;
+    min-height: 150px;
+    margin: 260px 0 0 0;
+    border: 3px solid green;
+    left: 10px;
+    top: 30px;
+
+}
+
+.third-block-text {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+/*Third-block done*/
